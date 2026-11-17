@@ -4,6 +4,8 @@ import {
   Video,
   Clapperboard,
   ShieldCheck,
+  Film,
+  ArrowRight,
 } from "lucide-react";
 
 export default function Home() {
@@ -23,8 +25,8 @@ export default function Home() {
           Ötletből <span>látvány.</span>
         </h1>
         <p className="lead">
-          Képek és videók készítése egyetlen alkalmazásban. Ingyenes
-          szolgáltatásokra tervezve.
+          Képek, videók és komplett produkciók készítése egyetlen alkalmazásban.
+          Ingyenes szolgáltatásokra tervezve.
         </p>
 
         <div className="tiles">
@@ -43,10 +45,23 @@ export default function Home() {
             </div>
             <h2>AI Video Generator</h2>
             <p>
-              Text-to-Video és Image-to-Video, akár 180 másodperces
-              projekttervvel.
+              Text-to-Video és Image-to-Video, rövid AI-videók készítéséhez.
             </p>
             <span className="tileLink">Videógenerátor megnyitása →</span>
+          </Link>
+
+          <Link className="tile" href="/production">
+            <div className="tileIcon">
+              <Film />
+            </div>
+            <h2>AI Video Production</h2>
+            <p>
+              Komplett videóprodukciók tervezése jelenetekkel, snittekkel,
+              karakterekkel és vizuális referenciákkal.
+            </p>
+            <span className="tileLink">
+              Production megnyitása <ArrowRight size={15} />
+            </span>
           </Link>
         </div>
       </section>
