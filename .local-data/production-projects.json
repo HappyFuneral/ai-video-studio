@@ -1,0 +1,337 @@
+[
+  {
+    "id": "lizard-on-the-loose",
+    "title": "Lizard on the Loose",
+    "description": "3:05 perces, stylized 3D punk animációs videóklip egy zöld, antropomorf gyík gördeszkás-gitáros főszereplésével.",
+    "durationSeconds": 185,
+    "fps": 24,
+    "aspectRatio": "16:9",
+    "masterResolution": "1920x1080",
+    "musicBpm": 180,
+    "characters": [
+      {
+        "id": "lizard-main",
+        "name": "Lizard",
+        "role": "Főszereplő – gördeszkás gitáros",
+        "appearance": "Zöld, antropomorf gyík. A pontos karakterjegyeket a karakter-referenciaképek és a későbbi karakterlap rögzíti.",
+        "clothing": "Nincs még részletesen rögzítve.",
+        "personality": "Punk, energikus, vagány előadásmód.",
+        "continuityRules": [
+          "A karakter külső megjelenése minden snittben maradjon következetes.",
+          "A végleges színeket, arányokat és ruházatot a jóváhagyott karakter-referencia rögzíti."
+        ],
+        "references": [
+          {
+            "id": "reference-1794870649065-i73bch",
+            "name": "ede04be6-51f4-4460-bc2d-0694d7c9e517.png",
+            "kind": "character",
+            "filePath": "/uploads/production/ede04be6-51f4-4460-bc2d-0694d7c9e517.png",
+            "notes": "",
+            "createdAt": "2026-11-16T23:10:49.065Z"
+          }
+        ]
+      }
+    ],
+    "props": [
+      {
+        "id": "black-kramer-guitar",
+        "name": "Fekete Kramer-stílusú gitár",
+        "description": "A főszereplő elektromos gitárja.",
+        "visualDetails": "Fekete Kramer-stílusú elektromos gitár; a pontos formai részleteket referencia rögzíti.",
+        "continuityRules": [
+          "A gitár formája és színe snittről snittre maradjon azonos."
+        ],
+        "references": []
+      },
+      {
+        "id": "purple-skateboard",
+        "name": "Lila gördeszka",
+        "description": "A főszereplő gördeszkája.",
+        "visualDetails": "Lila gördeszka; a pontos grafika és alkatrészek később rögzíthetők.",
+        "continuityRules": [
+          "A deszka színe és kialakítása maradjon következetes."
+        ],
+        "references": []
+      }
+    ],
+    "world": {
+      "name": "Rust Row",
+      "description": "A klip stilizált, urbánus punk világa.",
+      "locations": [
+        {
+          "id": "kessler-avenue",
+          "name": "Kessler Avenue",
+          "description": "",
+          "timeOfDay": "",
+          "atmosphere": "",
+          "visualDetails": "",
+          "references": []
+        },
+        {
+          "id": "needle-alley",
+          "name": "Needle Alley",
+          "description": "",
+          "timeOfDay": "",
+          "atmosphere": "",
+          "visualDetails": "",
+          "references": []
+        },
+        {
+          "id": "the-underpass",
+          "name": "The Underpass",
+          "description": "",
+          "timeOfDay": "",
+          "atmosphere": "",
+          "visualDetails": "",
+          "references": []
+        },
+        {
+          "id": "the-foundry-roof",
+          "name": "The Foundry roof",
+          "description": "",
+          "timeOfDay": "",
+          "atmosphere": "",
+          "visualDetails": "",
+          "references": []
+        },
+        {
+          "id": "the-cellar",
+          "name": "The Cellar",
+          "description": "",
+          "timeOfDay": "",
+          "atmosphere": "",
+          "visualDetails": "",
+          "references": []
+        },
+        {
+          "id": "the-pit",
+          "name": "The Pit",
+          "description": "",
+          "timeOfDay": "",
+          "atmosphere": "",
+          "visualDetails": "",
+          "references": []
+        }
+      ]
+    },
+    "style": {
+      "medium": "Stylized 3D animation",
+      "rendering": "Hand-painted comic texture, vastag fekete kontúrok",
+      "colorPalette": [
+        "neon magenta",
+        "teal",
+        "acid yellow"
+      ],
+      "lighting": "Filmes, kontrasztos fényelés",
+      "cameraLanguage": "Anamorf képi világ, sekély mélységélesség",
+      "texture": "Gritty urban realism, képregényes felületi textúrák",
+      "continuityRules": [
+        "A vizuális stílus minden jelenetben maradjon egységes.",
+        "A karakter- és tárgyreferenciák elsőbbséget élveznek a szabad szöveges prompttal szemben."
+      ],
+      "references": []
+    },
+    "scenes": [
+      {
+        "id": "scene-01",
+        "number": 1,
+        "title": "Ignition",
+        "startSeconds": 0,
+        "endSeconds": 14,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [
+          "black-kramer-guitar",
+          "purple-skateboard"
+        ],
+        "shots": [
+          {
+            "id": "shot-scene-01-1794867424239",
+            "number": 1,
+            "title": "Snitt 1",
+            "durationSeconds": 5,
+            "camera": "",
+            "cameraMovement": "",
+            "action": "",
+            "prompt": "[PROJECT]\nLizard on the Loose. 3:05 perces, stylized 3D punk animációs videóklip egy zöld, antropomorf gyík gördeszkás-gitáros főszereplésével.\nTarget frame: 16:9, 24 fps.\n\n[VISUAL STYLE BIBLE]\nStylized 3D animation\nHand-painted comic texture, vastag fekete kontúrok\nGritty urban realism, képregényes felületi textúrák\nColor palette: neon magenta, teal, acid yellow\nLighting: Filmes, kontrasztos fényelés\nCamera language: Anamorf képi világ, sekély mélységélesség\nStyle continuity: A vizuális stílus minden jelenetben maradjon egységes.\nStyle continuity: A karakter- és tárgyreferenciák elsőbbséget élveznek a szabad szöveges prompttal szemben.\n\n[WORLD / LOCATION]\nRust Row\n\n[CHARACTER BIBLE]\nLizard – Főszereplő – gördeszkás gitáros\nZöld, antropomorf gyík. A pontos karakterjegyeket a karakter-referenciaképek és a későbbi karakterlap rögzíti.\nNincs még részletesen rögzítve.\nPunk, energikus, vagány előadásmód.\nContinuity: A karakter külső megjelenése minden snittben maradjon következetes.\nContinuity: A végleges színeket, arányokat és ruházatot a jóváhagyott karakter-referencia rögzíti.\n\n[OBJECT BIBLE]\nFekete Kramer-stílusú gitár: A főszereplő elektromos gitárja.\nFekete Kramer-stílusú elektromos gitár; a pontos formai részleteket referencia rögzíti.\nContinuity: A gitár formája és színe snittről snittre maradjon azonos.\n\n[SCENE]\nScene 1: Ignition\n\n[SHOT]\nShot 1: Snitt 1\nIntended shot duration: 5 seconds.\n\n[CONTINUITY REQUIREMENT]\nPreserve the approved character, prop, location and visual-style references. Do not redesign established elements between shots.",
+            "negativePrompt": "",
+            "referenceIds": [],
+            "status": "failed",
+            "generatedClips": [
+              {
+                "id": "689cdc76-073c-4521-8d94-264687ab64f0",
+                "provider": "Hugging Face Spaces / Gradio",
+                "model": "DeepRat/LTX-Video-ZeroGPU-Optimized",
+                "videoPath": "generated/production/lizard-on-the-loose/shot-scene-01-1794867424239-689cdc76-073c-4521-8d94-264687ab64f0.mp4",
+                "videoUrl": "/generated/production/lizard-on-the-loose/shot-scene-01-1794867424239-689cdc76-073c-4521-8d94-264687ab64f0.mp4",
+                "durationSeconds": 2,
+                "createdAt": "2026-11-16T23:21:10.652Z",
+                "status": "generated",
+                "notes": "Text-to-video generálás LTX Video ZeroGPU Space használatával."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scene-02",
+        "number": 2,
+        "title": "The Drop",
+        "startSeconds": 14,
+        "endSeconds": 36,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-03",
+        "number": 3,
+        "title": "Trash-Can Ollies and Kickflip",
+        "startSeconds": 36,
+        "endSeconds": 47,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-04",
+        "number": 4,
+        "title": "Stairs and Rail",
+        "startSeconds": 47,
+        "endSeconds": 57,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-05",
+        "number": 5,
+        "title": "Neighborhood Wakes",
+        "startSeconds": 57,
+        "endSeconds": 76,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-06",
+        "number": 6,
+        "title": "Neon Alleys",
+        "startSeconds": 76,
+        "endSeconds": 95,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-07",
+        "number": 7,
+        "title": "Underpass",
+        "startSeconds": 95,
+        "endSeconds": 104,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-08",
+        "number": 8,
+        "title": "Rooftop Solo",
+        "startSeconds": 104,
+        "endSeconds": 121,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-09",
+        "number": 9,
+        "title": "The Cellar",
+        "startSeconds": 121,
+        "endSeconds": 140,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-10",
+        "number": 10,
+        "title": "The Pit",
+        "startSeconds": 140,
+        "endSeconds": 162,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-11",
+        "number": 11,
+        "title": "Launch",
+        "startSeconds": 162,
+        "endSeconds": 176,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      },
+      {
+        "id": "scene-12",
+        "number": 12,
+        "title": "Landing and Title",
+        "startSeconds": 176,
+        "endSeconds": 185,
+        "summary": "",
+        "locationId": null,
+        "characterIds": [
+          "lizard-main"
+        ],
+        "propIds": [],
+        "shots": []
+      }
+    ],
+    "createdAt": "2026-11-16T22:16:02.005Z",
+    "updatedAt": "2026-11-16T23:21:32.699Z"
+  }
+]

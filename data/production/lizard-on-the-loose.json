@@ -1,0 +1,1196 @@
+{
+  "id": "lizard-on-the-loose",
+  "title": "Lizard on the Loose",
+  "description": "A 3:05 stylized 3D punk-rock animated music video featuring a rebellious lime-green anthropomorphic lizard skateboarder and guitarist transforming the half-abandoned Rust Row neighborhood into his playground.",
+  "durationSeconds": 185,
+  "fps": 24,
+  "aspectRatio": "16:9",
+  "masterResolution": "1920x1080",
+  "musicBpm": 180,
+  "characters": [
+    {
+      "id": "lizard",
+      "name": "The Lizard",
+      "role": "Protagonist; rebellious skateboarder and electric guitarist.",
+      "appearance": "A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally.",
+      "clothing": "Faded mustard-yellow baseball cap worn backwards; oversized black hoodie with hood down and sleeves pushed to elbows, frayed white drawstrings; baggy charcoal cargo pants; worn off-white skate high-tops with neon-magenta laces; chunky black over-ear headphones with neon-green ring accents.",
+      "personality": "Rebellious, energetic, mischievous, confident and playful.",
+      "continuityRules": [
+        "Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows.",
+        "Short spines from brow to nape and down the tail; thick tail with dark bands near the tip.",
+        "Long snout, amber eyes with vertical slit pupils, crooked toothy grin, one chipped upper-left tooth and three cream stripes on the left cheek.",
+        "Lean wiry build and consistent body proportions; five fingers with short blunt claws.",
+        "Never change the cap, hoodie, pants, shoes, headphones, face or body proportions."
+      ],
+      "references": [
+        {
+          "id": "ref-lizard-character-01",
+          "name": "Lizard character reference 1",
+          "kind": "character",
+          "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+          "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+          "createdAt": "2026-11-11T02:01:52.656Z"
+        },
+        {
+          "id": "ref-lizard-character-02",
+          "name": "Lizard character reference 2",
+          "kind": "character",
+          "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+          "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+          "createdAt": "2026-11-11T02:01:52.656Z"
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "id": "purple-skateboard",
+      "name": "Purple Skateboard",
+      "description": "The lizard's signature skateboard.",
+      "visualDetails": "Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene.",
+      "continuityRules": [
+        "Dark-purple deck with black grip tape.",
+        "Magenta lightning-crack graphic on the underside.",
+        "Milky-pink wheels, silver trucks and chipped nose.",
+        "Preserve the same deck shape, proportions, wheels and hardware in every shot."
+      ],
+      "references": []
+    },
+    {
+      "id": "black-guitar",
+      "name": "Black Kramer Electric Guitar",
+      "description": "The lizard's signature glossy black Kramer Baretta-style electric guitar.",
+      "visualDetails": "Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene.",
+      "continuityRules": [
+        "Single bridge humbucker, one volume knob, Floyd Rose tremolo and black hardware.",
+        "Maple fretboard with white dot inlays and pointed hooked banana headstock with silver logo.",
+        "Frayed neon-magenta strap and one small orange sticker on the lower horn.",
+        "Preserve the exact guitar silhouette, finish and hardware in every shot."
+      ],
+      "references": []
+    }
+  ],
+  "world": {
+    "name": "Rust Row",
+    "description": "A half-abandoned American neighborhood with cracked asphalt, flickering streetlights, old neon signs, parked 1970s muscle cars, wood-panel station wagons, graffiti-covered walls, rusty fire escapes, chain-link fences and wet streets. The city gradually awakens and reacts to the lizard's music.",
+    "locations": [
+      {
+        "id": "kessler-avenue",
+        "name": "Kessler Avenue",
+        "description": "The main street of Rust Row: cracked asphalt, wet reflective pavement, flickering streetlights, parked 1970s muscle cars and wood-panel station wagons, graffiti walls and rusty fire escapes.",
+        "timeOfDay": "Blue hour into night",
+        "atmosphere": "Deserted and mysterious at blue hour in the opening, then a neon-lit punk neighborhood at night.",
+        "visualDetails": "The main street of Rust Row: cracked asphalt, wet reflective pavement, flickering streetlights, parked 1970s muscle cars and wood-panel station wagons, graffiti walls and rusty fire escapes.",
+        "references": []
+      },
+      {
+        "id": "needle-alley",
+        "name": "Needle Alley",
+        "description": "A narrow alley layered with graffiti and torn posters, rusty fire escapes overhead, chain-link fences, pipes and puddles.",
+        "timeOfDay": "Night",
+        "atmosphere": "Dark, dense underground atmosphere; pink, cyan and acid-yellow neon ignites in sequence.",
+        "visualDetails": "A narrow alley layered with graffiti and torn posters, rusty fire escapes overhead, chain-link fences, pipes and puddles.",
+        "references": []
+      },
+      {
+        "id": "underpass",
+        "name": "The Underpass",
+        "description": "A long concrete tunnel with repeating old sodium lamps, graffiti-covered walls and a wet reflective floor.",
+        "timeOfDay": "Night",
+        "atmosphere": "Dark, raw and industrial, with orange sodium light and cyan accents.",
+        "visualDetails": "A long concrete tunnel with repeating old sodium lamps, graffiti-covered walls and a wet reflective floor.",
+        "references": []
+      },
+      {
+        "id": "foundry-roof",
+        "name": "The Foundry Roof",
+        "description": "The rooftop of an abandoned factory overlooking the Rust Row skyline, with a fire barrel and a dead neon sign.",
+        "timeOfDay": "Night",
+        "atmosphere": "Open, dramatic and cinematic; cold blue city light, orange sparks and magenta neon.",
+        "visualDetails": "The rooftop of an abandoned factory overlooking the Rust Row skyline, with a fire barrel and a dead neon sign.",
+        "references": []
+      },
+      {
+        "id": "cellar",
+        "name": "The Cellar",
+        "description": "A tiny underground punk venue with a low ceiling, a small stage, packed crowd and atmospheric smoke.",
+        "timeOfDay": "Night",
+        "atmosphere": "Cramped, dark and energetic, with red and amber stage lights.",
+        "visualDetails": "A tiny underground punk venue with a low ceiling, a small stage, packed crowd and atmospheric smoke.",
+        "references": []
+      },
+      {
+        "id": "the-pit",
+        "name": "The Pit",
+        "description": "An enormous abandoned skatepark beneath a collapsed parking garage, with concrete bowls, broken ramps, exposed rebar, graffiti pillars and tripod floodlights.",
+        "timeOfDay": "Night",
+        "atmosphere": "Huge, dramatic and chaotic; dust and smoke in white-blue floodlights with magenta and amber accents.",
+        "visualDetails": "An enormous abandoned skatepark beneath a collapsed parking garage, with concrete bowls, broken ramps, exposed rebar, graffiti pillars and tripod floodlights.",
+        "references": []
+      }
+    ]
+  },
+  "style": {
+    "medium": "Stylized 3D punk-rock animation",
+    "rendering": "High-quality stylized 3D animation with hand-painted comic texture, thick inked outlines, gritty urban realism mixed with playful surrealism.",
+    "colorPalette": [
+      "saturated magenta",
+      "teal",
+      "acid yellow",
+      "deep blue-black shadows",
+      "orange sparks"
+    ],
+    "lighting": "Volumetric neon haze, cinematic contrast, wet reflective surfaces, flickering sodium lamps, dramatic rim lighting, atmospheric shadows.",
+    "cameraLanguage": "Wheel-level low angles for skateboarding; fast tracking shots during riffs; locked wide shots for environmental storytelling; extreme close-ups of guitar strings, fingers, pick, eyes and wheels; slow motion for major tricks; dynamic whip pans; one 360-degree orbit reserved for the final climax.",
+    "texture": "Hand-painted comic texture, thick inked outlines, subtle film grain and chromatic aberration at frame edges, shallow depth of field, cinematic anamorphic lens look.",
+    "continuityRules": [
+      "Keep the protagonist's face, body proportions, skin color, cheek stripes, chipped tooth, cap, hoodie, pants, shoes and headphones identical in every shot.",
+      "Keep the glossy black Kramer-style guitar and its hardware, maple fretboard, magenta strap and orange sticker identical.",
+      "Keep the dark-purple skateboard, magenta lightning-crack underside graphic, milky-pink wheels, silver trucks and chipped nose identical.",
+      "Maintain Rust Row's environment design, neon palette, wet reflective surfaces and gritty punk-rock atmosphere.",
+      "Use approved character and prop references in every generation; use the approved keyframe as the starting image for image-to-video.",
+      "Prefer controlled, believable movement; avoid extra fingers, limbs, duplicate instruments or physically incoherent skateboard motion."
+    ],
+    "references": []
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "Ignition",
+      "startSeconds": 0,
+      "endSeconds": 14,
+      "summary": "Opening sequence and introduction.",
+      "locationId": "kessler-avenue",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-01-shot-01",
+          "number": 1,
+          "title": "Blue-hour approach",
+          "durationSeconds": 7,
+          "camera": "35mm medium close-up",
+          "cameraMovement": "Slow locked opening, then gentle dolly-in",
+          "action": "An empty wet cracked-asphalt street at blue hour. A streetlight sputters on and steam rises from a manhole. The lizard walks toward camera with the skateboard under his left arm and the black guitar on his back; show the scuffed sneaker landing in a puddle, tail, hoodie and backwards cap. A vintage muscle car is reflected in his amber eye.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: An empty wet cracked-asphalt street at blue hour. A streetlight sputters on and steam rises from a manhole. The lizard walks toward camera with the skateboard under his left arm and the black guitar on his back; show the scuffed sneaker landing in a puddle, tail, hoodie and backwards cap. A vintage muscle car is reflected in his amber eye. VIDEO ACTION: From the approved keyframe, hold for three seconds as the streetlight flickers and steam drifts. Slowly dolly toward the lizard as he walks forward, tail swaying naturally. Preserve the deserted blue-hour street and cinematic suspense. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-01-shot-02",
+          "number": 2,
+          "title": "Headphones and drop",
+          "durationSeconds": 7,
+          "camera": "Medium close-up to low wheel-level shot",
+          "cameraMovement": "Slow push-in, then quick tilt down and impact cut",
+          "action": "The lizard pulls his chunky headphones over his ears at 0:12.1, gives the lens a mischievous crooked smile at 0:12.7, then drops the purple skateboard onto the asphalt at 0:14.0. Show the black Kramer guitar on his back and the wet street reflecting magenta neon.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard pulls his chunky headphones over his ears at 0:12.1, gives the lens a mischievous crooked smile at 0:12.7, then drops the purple skateboard onto the asphalt at 0:14.0. Show the black Kramer guitar on his back and the wet street reflecting magenta neon. VIDEO ACTION: Continue from the approved keyframe. He slides the headphones over his ears, looks directly into the lens and smiles, then drops the skateboard; it slaps the asphalt and he jumps on. End on the board impact, ready for the full-band drop. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02",
+            "ref-scene-01-keyframe-01"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-scene-01-keyframe-01",
+              "name": "Ignition existing keyframe",
+              "kind": "keyframe",
+              "filePath": "/uploads/production/8d33f172-fff8-4ec3-9a64-0bf33840b431.png",
+              "notes": "A meglévő feltöltött keyframe; Scene 1, Shot 2 referenciája.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [
+            {
+              "id": "keyframe-ignition-existing",
+              "timeSeconds": 0,
+              "image": "/uploads/production/8d33f172-fff8-4ec3-9a64-0bf33840b431.png",
+              "description": "Meglévő jóváhagyott Ignition keyframe; a jelenet videógenerálásának kiinduló képe."
+            }
+          ],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "The Drop",
+      "startSeconds": 14,
+      "endSeconds": 36,
+      "summary": "The main musical energy kicks in.",
+      "locationId": "kessler-avenue",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-02-shot-01",
+          "number": 1,
+          "title": "Wheel-level ride",
+          "durationSeconds": 7,
+          "camera": "Extreme low wheel-level tracking",
+          "cameraMovement": "Fast parallel tracking beside the board",
+          "action": "The lizard rides fast down Kessler Avenue on the distinctive purple skateboard. Show the milky-pink wheels, silver trucks, scuffed off-white skate shoes with neon-magenta laces and tail trailing behind. Wet asphalt and neon reflections streak past; a wood-panel station wagon is overtaken.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard rides fast down Kessler Avenue on the distinctive purple skateboard. Show the milky-pink wheels, silver trucks, scuffed off-white skate shoes with neon-magenta laces and tail trailing behind. Wet asphalt and neon reflections streak past; a wood-panel station wagon is overtaken. VIDEO ACTION: Fast low tracking camera beside the skateboard wheels. The lizard pushes with one foot, crouches into the ride and keeps his tail moving naturally for balance. Reflections and neon streaks race past on wet asphalt. Believable skateboard physics. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-02-shot-02",
+          "number": 2,
+          "title": "Street reaction",
+          "durationSeconds": 7,
+          "camera": "Low-to-medium side tracking shot",
+          "cameraMovement": "Tracking rise from wheels to character and street",
+          "action": "The lizard races past parked 1970s cars and an old man sitting beneath a buzzing BAR sign. The old man raises his drink as the lizard passes. Flickering streetlights begin to activate in sequence along Kessler Avenue.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard races past parked 1970s cars and an old man sitting beneath a buzzing BAR sign. The old man raises his drink as the lizard passes. Flickering streetlights begin to activate in sequence along Kessler Avenue. VIDEO ACTION: The camera rises from wheel level to a side tracking shot. The lizard overtakes the wood-panel station wagon; the old man under the BAR sign raises his drink. Streetlights flick on one after another in rhythm as the lizard passes. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-02-shot-03",
+          "number": 3,
+          "title": "Guitar swing and first riff",
+          "durationSeconds": 8,
+          "camera": "High tracking medium shot",
+          "cameraMovement": "Smooth rising tracking shot, then slight push-in",
+          "action": "While still riding, the lizard swings the glossy black Kramer guitar from his back to the front on its frayed neon-magenta strap and begins strumming. Streetlights and old neon signs ignite along Kessler Avenue in response to the music.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: While still riding, the lizard swings the glossy black Kramer guitar from his back to the front on its frayed neon-magenta strap and begins strumming. Streetlights and old neon signs ignite along Kessler Avenue in response to the music. VIDEO ACTION: The camera rises into a high tracking shot following him down Kessler Avenue. He swings the black guitar from his back to the front mid-ride and starts strumming. Streetlights flick on one after another; neon signs ignite as he passes. Keep the guitar design unchanged. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "Trash-Can Ollies and Kickflip",
+      "startSeconds": 36,
+      "endSeconds": 47,
+      "summary": "Skateboarding tricks around trash cans.",
+      "locationId": "kessler-avenue",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-03-shot-01",
+          "number": 1,
+          "title": "Trash-can ollies",
+          "durationSeconds": 5,
+          "camera": "Low-angle side shot",
+          "cameraMovement": "Fast lateral tracking with rhythmic cuts",
+          "action": "The lizard approaches dented metal trash cans and performs a fast sequence of ollies over them. Trash bags burst as he lands. Show the sneaker popping the skateboard tail and the purple deck clearing each obstacle.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard approaches dented metal trash cans and performs a fast sequence of ollies over them. Trash bags burst as he lands. Show the sneaker popping the skateboard tail and the purple deck clearing each obstacle. VIDEO ACTION: The lizard performs successive ollies over a row of dented metal trash cans. Trash bags burst on impact. Track low beside the board and keep each jump readable and physically believable. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-03-shot-02",
+          "number": 2,
+          "title": "Kickflip apex and landing",
+          "durationSeconds": 6,
+          "camera": "Dramatic low-angle freeze-frame",
+          "cameraMovement": "Low upward sweep, brief slow motion, then follow landing",
+          "action": "The lizard performs a spectacular kickflip above the trash cans. The purple skateboard rotates beneath his feet, pink wheels streak through the air, black guitar swinging on its strap, trash scraps suspended around him.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard performs a spectacular kickflip above the trash cans. The purple skateboard rotates beneath his feet, pink wheels streak through the air, black guitar swinging on its strap, trash scraps suspended around him. VIDEO ACTION: From the keyframe, perform a slow-motion kickflip. The skateboard rotates one full turn beneath his feet while he floats at the apex. Trash scraps drift through the air. The camera tracks low and sweeps upward. He catches the board with both sneakers, lands cleanly and rolls away. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "Stairs and the Rail",
+      "startSeconds": 47,
+      "endSeconds": 57,
+      "summary": "A fast stair and rail skate sequence.",
+      "locationId": "kessler-avenue",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-04-shot-01",
+          "number": 1,
+          "title": "Stair drop and rail grind",
+          "durationSeconds": 10,
+          "camera": "Side-on wide shot shifting to low angle",
+          "cameraMovement": "Track alongside the rail, then dip beneath it",
+          "action": "A twelve-step concrete stair set and a long rusty metal handrail. The lizard launches down the stairs in slow motion, lands in a cloud of concrete dust, then performs a long grind along the rail. Sparks stream from the skateboard trucks; his black guitar hangs at his side.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: A twelve-step concrete stair set and a long rusty metal handrail. The lizard launches down the stairs in slow motion, lands in a cloud of concrete dust, then performs a long grind along the rail. Sparks stream from the skateboard trucks; his black guitar hangs at his side. VIDEO ACTION: The lizard drops down the twelve-step stair set in slow motion and lands in a cloud of dust. He immediately grinds along the rusty rail with sparks streaming from the trucks. The camera tracks alongside, dips beneath the rail, then follows him popping off the end. He lands and strikes a power chord with one hand; sparks burst across frame. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "The Neighborhood Wakes",
+      "startSeconds": 57,
+      "endSeconds": 76,
+      "summary": "The neighborhood comes alive.",
+      "locationId": "kessler-avenue",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-05-shot-01",
+          "number": 1,
+          "title": "Street band and followers",
+          "durationSeconds": 9,
+          "camera": "Wide cinematic tracking shot",
+          "cameraMovement": "Smooth side tracking through the neighborhood",
+          "action": "The lizard rides through a graffiti-covered Rust Row street while confidently playing his black Kramer guitar. A bucket drummer performs on overturned plastic containers; a graffiti artist pauses on scaffolding; a woman with a grocery cart turns toward the music; young skateboarders begin following.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard rides through a graffiti-covered Rust Row street while confidently playing his black Kramer guitar. A bucket drummer performs on overturned plastic containers; a graffiti artist pauses on scaffolding; a woman with a grocery cart turns toward the music; young skateboarders begin following. VIDEO ACTION: Track alongside the lizard as he rides and plays guitar. The bucket drummer hits his makeshift drums in rhythm. The graffiti artist pauses and looks down. The woman turns toward the music. Young skateboarders notice him and begin following. Natural background movement. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-05-shot-02",
+          "number": 2,
+          "title": "The mural wakes",
+          "durationSeconds": 10,
+          "camera": "Wide shot moving into mural close-up",
+          "cameraMovement": "Tracking pass, then controlled push toward mural eyes",
+          "action": "The lizard strums a powerful chord while riding past a giant colorful graffiti mural. The painted eyes on the wall begin to open and turn to follow him. Magenta, teal and acid-yellow light ripples across the mural; the lizard notices and gives a knowing grin.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard strums a powerful chord while riding past a giant colorful graffiti mural. The painted eyes on the wall begin to open and turn to follow him. Magenta, teal and acid-yellow light ripples across the mural; the lizard notices and gives a knowing grin. VIDEO ACTION: The lizard strums a strong guitar chord while riding past the massive mural. Its painted eyes slowly open and rotate to follow him. Neon light ripples across the wall in time with the guitar. He notices the eyes and gives a knowing grin. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "Neon Alleys",
+      "startSeconds": 76,
+      "endSeconds": 95,
+      "summary": "Neon-lit alley sequence.",
+      "locationId": "needle-alley",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-06-shot-01",
+          "number": 1,
+          "title": "Neon ignition",
+          "durationSeconds": 9,
+          "camera": "Wide-angle low tracking shot",
+          "cameraMovement": "Camera tracks backward in front of the rider",
+          "action": "Inside narrow Needle Alley, the lizard rides his purple skateboard while strumming the black guitar. Rusty fire escapes, torn posters, chain-link fences and pipes form a dense urban tunnel. A pink OPEN sign, cyan motel sign and acid-yellow arrow sign illuminate the wet pavement.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: Inside narrow Needle Alley, the lizard rides his purple skateboard while strumming the black guitar. Rusty fire escapes, torn posters, chain-link fences and pipes form a dense urban tunnel. A pink OPEN sign, cyan motel sign and acid-yellow arrow sign illuminate the wet pavement. VIDEO ACTION: The lizard rides through the narrow alley while strumming. Each guitar strum causes a different neon sign to ignite in sequence: pink OPEN, cyan motel, yellow broken arrow, then a skull-shaped neon sign. The camera tracks backward as he approaches; reflections stretch across puddles. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-06-shot-02",
+          "number": 2,
+          "title": "Wall kickturn",
+          "durationSeconds": 10,
+          "camera": "Low-to-medium wide shot",
+          "cameraMovement": "Brief forward lead, then whip-pan with the turn",
+          "action": "The lizard performs a sharp skateboard kickturn against a graffiti-covered wall, briefly riding at an angle before turning back into the alley. His tail extends naturally for balance; neon reflections slide across his hoodie and black guitar.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard performs a sharp skateboard kickturn against a graffiti-covered wall, briefly riding at an angle before turning back into the alley. His tail extends naturally for balance; neon reflections slide across his hoodie and black guitar. VIDEO ACTION: The lizard performs a sharp kickturn against the graffiti wall, briefly riding at an angle before turning back into the alley. His tail moves naturally for balance. Neon reflections slide across his hoodie and guitar. Fast but readable camera movement. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "The Underpass",
+      "startSeconds": 95,
+      "endSeconds": 104,
+      "summary": "A short, intense underpass sequence.",
+      "locationId": "underpass",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-07-shot-01",
+          "number": 1,
+          "title": "Sodium-light tunnel run",
+          "durationSeconds": 9,
+          "camera": "Low frontal tracking shot to low rear angle",
+          "cameraMovement": "Race backward in front, then sweep around behind",
+          "action": "The lizard crouches low and accelerates through a long concrete underpass on the purple skateboard while playing short accents on the black Kramer. Repeating sodium lamps stretch into the distance; wet floor reflects alternating orange and cyan light; graffiti symbols line the walls.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard crouches low and accelerates through a long concrete underpass on the purple skateboard while playing short accents on the black Kramer. Repeating sodium lamps stretch into the distance; wet floor reflects alternating orange and cyan light; graffiti symbols line the walls. VIDEO ACTION: Race backward in front of the lizard as he accelerates through the tunnel. Every guitar accent triggers a sodium lamp to flash overhead, one per beat. Graffiti symbols briefly glow on the concrete walls. Sweep around to a low rear tracking angle as he bursts out of the tunnel. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "number": 8,
+      "title": "The Foundry Rooftop Solo",
+      "startSeconds": 104,
+      "endSeconds": 121,
+      "summary": "The lizard performs a guitar solo.",
+      "locationId": "foundry-roof",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-08-shot-01",
+          "number": 1,
+          "title": "Rooftop guitar solo",
+          "durationSeconds": 8,
+          "camera": "Heroic medium-wide shot",
+          "cameraMovement": "Slow cinematic orbit from medium shot to guitar close-up",
+          "action": "On the abandoned factory rooftop, the lizard stops his purple skateboard and performs an expressive solo on the glossy black Kramer guitar. The city skyline sits in cold blue light; a fire barrel burns nearby and orange sparks rise; a dead factory neon sign begins glowing magenta.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: On the abandoned factory rooftop, the lizard stops his purple skateboard and performs an expressive solo on the glossy black Kramer guitar. The city skyline sits in cold blue light; a fire barrel burns nearby and orange sparks rise; a dead factory neon sign begins glowing magenta. VIDEO ACTION: Slowly orbit the lizard as he performs an energetic rooftop guitar solo. His fingers move naturally across the maple fretboard and his picking hand attacks the strings. Move from medium shot to close-up of the guitar and return to his face. Fire sparks drift upward; the factory neon flickers with the strongest notes. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-08-shot-02",
+          "number": 2,
+          "title": "Guitar bend and grin",
+          "durationSeconds": 9,
+          "camera": "Extreme close-up to medium close-up",
+          "cameraMovement": "Push into fretboard and eyes, then pull back",
+          "action": "Extreme close-up of the lizard's claws bending a guitar string, black guitar reflecting orange firelight, amber eyes narrowing with concentration. He finishes the phrase with a dramatic bend and gives the camera a confident grin as magenta neon flashes.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: Extreme close-up of the lizard's claws bending a guitar string, black guitar reflecting orange firelight, amber eyes narrowing with concentration. He finishes the phrase with a dramatic bend and gives the camera a confident grin as magenta neon flashes. VIDEO ACTION: Show the claws bending a guitar string and the lizard's amber eyes narrowing. He finishes the phrase with a dramatic guitar bend, then gives the camera a confident grin. A bright magenta neon flash fills the frame. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "number": 9,
+      "title": "The Cellar",
+      "startSeconds": 121,
+      "endSeconds": 140,
+      "summary": "The underground venue sequence.",
+      "locationId": "cellar",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-09-shot-01",
+          "number": 1,
+          "title": "Club entry",
+          "durationSeconds": 9,
+          "camera": "Low skateboard-height wide shot",
+          "cameraMovement": "Follow down ramp and weave into the crowd",
+          "action": "The lizard rides down a narrow ramp into The Cellar, a tiny underground punk venue with a low ceiling, packed crowd, thick smoke and red-and-amber stage lights. A three-piece punk band plays on a tiny stage as he enters while playing guitar.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard rides down a narrow ramp into The Cellar, a tiny underground punk venue with a low ceiling, packed crowd, thick smoke and red-and-amber stage lights. A three-piece punk band plays on a tiny stage as he enters while playing guitar. VIDEO ACTION: Follow the lizard down the narrow ramp as he bursts into the packed underground club. The camera moves through the crowd at low skateboard height. Red and amber lights flash through smoke. People turn and cheer as he passes while continuing to play guitar. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-09-shot-02",
+          "number": 2,
+          "title": "Band, crowd and exit",
+          "durationSeconds": 10,
+          "camera": "Crowd-level medium-wide shot",
+          "cameraMovement": "Move from crowd to stage, then follow rider to side exit",
+          "action": "The lizard rides through the crowd. People cheer and raise their hands; the drummer is ready to crash a cymbal; the singer points toward the lizard. He grins and rides through a side exit toward the abandoned skatepark.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard rides through the crowd. People cheer and raise their hands; the drummer is ready to crash a cymbal; the singer points toward the lizard. He grins and rides through a side exit toward the abandoned skatepark. VIDEO ACTION: Move from the cheering crowd to the small punk band on stage. The drummer crashes a cymbal as the lizard passes; the singer points toward him. The lizard grins and rides through a side exit into darkness. Keep movement energetic but readable. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "number": 10,
+      "title": "The Pit",
+      "startSeconds": 140,
+      "endSeconds": 162,
+      "summary": "The energetic punk concert climax.",
+      "locationId": "the-pit",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-10-shot-01",
+          "number": 1,
+          "title": "Skatepark arrival",
+          "durationSeconds": 7,
+          "camera": "Epic wide establishing shot",
+          "cameraMovement": "Start wide, drop to wheel level and follow into bowl",
+          "action": "Reveal The Pit: an enormous abandoned skatepark beneath a collapsed concrete parking garage, with concrete bowls, broken ramps, exposed rusty rebar, graffiti pillars and old tripod floodlights. A group of skateboarders waits as the lizard rolls into the center on his purple board with the black guitar.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: Reveal The Pit: an enormous abandoned skatepark beneath a collapsed concrete parking garage, with concrete bowls, broken ramps, exposed rusty rebar, graffiti pillars and old tripod floodlights. A group of skateboarders waits as the lizard rolls into the center on his purple board with the black guitar. VIDEO ACTION: Begin with a wide establishing shot, then drop to wheel level and follow the lizard into a concrete bowl. Dust moves through white-blue floodlights. A group of skateboarders turns toward him. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-10-shot-02",
+          "number": 2,
+          "title": "Trick montage",
+          "durationSeconds": 7,
+          "camera": "Fast alternating low tracking and close-ups",
+          "cameraMovement": "Rapid but readable cuts between tricks and inserts",
+          "action": "A fast sequence: carve through a concrete bowl, wall ride along a graffiti-covered transition, ollie over a broken barrier and grind across a concrete ledge. Cutaways show pink wheels, guitar strings, the lizard's focused eyes and cheering spectators.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: A fast sequence: carve through a concrete bowl, wall ride along a graffiti-covered transition, ollie over a broken barrier and grind across a concrete ledge. Cutaways show pink wheels, guitar strings, the lizard's focused eyes and cheering spectators. VIDEO ACTION: Show a physically readable sequence of the lizard carving through a bowl, wall-riding, ollieing over a broken barrier and grinding across a ledge. Cut between low tracking shots, wheel close-ups, guitar strings and cheering spectators. Every major guitar accent triggers a floodlight flash. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-10-shot-03",
+          "number": 3,
+          "title": "Approach to the final ramp",
+          "durationSeconds": 8,
+          "camera": "Side tracking medium-wide shot",
+          "cameraMovement": "Track alongside and slowly rise toward ramp",
+          "action": "The lizard accelerates toward the tallest ramp in The Pit. He looks up, crouches lower and grips the guitar as the crowd watches. Floodlights flare through dust and smoke. End just before he launches.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard accelerates toward the tallest ramp in The Pit. He looks up, crouches lower and grips the guitar as the crowd watches. Floodlights flare through dust and smoke. End just before he launches. VIDEO ACTION: Track alongside the lizard as he accelerates toward the tallest ramp. Slowly rise with the camera as he approaches the launch. He crouches lower; the crowd watches; floodlights flare. End immediately before takeoff. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "number": 11,
+      "title": "The Launch",
+      "startSeconds": 162,
+      "endSeconds": 176,
+      "summary": "The final launch sequence.",
+      "locationId": "the-pit",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-11-shot-01",
+          "number": 1,
+          "title": "Slow-motion launch and orbit",
+          "durationSeconds": 7,
+          "camera": "Epic wide slow-motion shot",
+          "cameraMovement": "Smooth 360-degree orbit around airborne character",
+          "action": "The lizard launches high above the enormous ramp. His purple skateboard spins beneath his feet and the glossy black Kramer hangs from its frayed magenta strap. The whole abandoned skatepark and crowd are visible below; white strobe, magenta and amber lights cut through smoke.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard launches high above the enormous ramp. His purple skateboard spins beneath his feet and the glossy black Kramer hangs from its frayed magenta strap. The whole abandoned skatepark and crowd are visible below; white strobe, magenta and amber lights cut through smoke. VIDEO ACTION: The lizard launches from the enormous ramp and rises high into the air. Perform a dramatic smooth 360-degree camera orbit around him. The skateboard spins beneath his feet while the guitar hangs from the magenta strap. Dust, sparks and smoke float in slow motion; the skatepark is visible below. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-11-shot-02",
+          "number": 2,
+          "title": "Mid-air guitar climax and descent",
+          "durationSeconds": 7,
+          "camera": "Close-up transitioning to low-angle wide",
+          "cameraMovement": "Push into guitar bend, pull back and follow descent",
+          "action": "In mid-air, the lizard plays a powerful guitar bend. His claws move naturally on the fretboard, amber eyes focused and crooked grin widening. The skateboard completes its rotation and aligns beneath his sneakers as he prepares to land.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: In mid-air, the lizard plays a powerful guitar bend. His claws move naturally on the fretboard, amber eyes focused and crooked grin widening. The skateboard completes its rotation and aligns beneath his sneakers as he prepares to land. VIDEO ACTION: Show an extreme close-up of the lizard playing a powerful guitar bend while suspended in mid-air. Pull back to reveal the skatepark below. The skateboard completes its rotation and aligns beneath his sneakers. Follow him downward; knees bent and tail extended for balance. Gradually return from slow motion to normal speed. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "number": 12,
+      "title": "Landing, Smile and Title",
+      "startSeconds": 176,
+      "endSeconds": 185,
+      "summary": "Final landing and title sequence.",
+      "locationId": "the-pit",
+      "characterIds": ["lizard"],
+      "propIds": ["purple-skateboard", "black-guitar"],
+      "shots": [
+        {
+          "id": "scene-12-shot-01",
+          "number": 1,
+          "title": "Perfect landing and final look",
+          "durationSeconds": 5,
+          "camera": "Low-angle landing shot to medium close-up",
+          "cameraMovement": "Track landing, settle, then slow push toward face",
+          "action": "The lizard lands perfectly on the purple skateboard in The Pit. Dust and sparks burst around the wheels. He rolls forward a few meters and stops under a warm tungsten spotlight, black Kramer guitar over his shoulder, looking directly into camera with his crooked grin and chipped upper-left tooth.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard lands perfectly on the purple skateboard in The Pit. Dust and sparks burst around the wheels. He rolls forward a few meters and stops under a warm tungsten spotlight, black Kramer guitar over his shoulder, looking directly into camera with his crooked grin and chipped upper-left tooth. VIDEO ACTION: The lizard lands perfectly on the skateboard. The wheels hit concrete with a powerful impact, creating dust and sparks. Track the landing at low angle. He rolls forward a few meters and comes to a controlled stop; the crowd reacts in the background. Slowly push toward his face. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        },
+        {
+          "id": "scene-12-shot-02",
+          "number": 2,
+          "title": "Rock-and-roll gesture and title",
+          "durationSeconds": 4,
+          "camera": "Centered final portrait, then title card",
+          "cameraMovement": "Slow push-in, fade to black, hard graphic title reveal",
+          "action": "The lizard gives his signature crooked grin, showing the chipped upper-left tooth, then raises one hand in a playful rock-and-roll horns gesture. Cut to pure black and display LIZARD ON THE LOOSE in bold distressed white punk-rock lettering with magenta and acid-yellow accents.",
+          "prompt": "Use the approved character reference images and, when available, the approved scene keyframe as the starting image. CHARACTER CONSISTENCY LOCK: A cool, rebellious anthropomorphic lizard, lean wiry build, approximately 1.7 meters tall, with a loose confident slouch. Lime-green detailed reptile scales, pale yellow-green throat and belly, forest-green shadows, a row of short spines from brow to nape and down the tail.\n\nLong reptile snout, big amber eyes with vertical slit pupils and heavy half-closed eyelids, wide crooked toothy grin, one chipped upper-left tooth, three cream stripes on the left cheek.\n\nFaded mustard-yellow baseball cap worn backwards, with crest spines poking through the strap gap.\n\nOversized black hoodie with no logo, hood down, sleeves pushed to the elbows, frayed white drawstrings.\n\nBaggy charcoal cargo pants with large thigh pockets, frayed hems, thick tail with dark bands near the tip exiting through a slit at the back.\n\nWorn, scuffed off-white skate high-tops with neon-magenta laces.\n\nChunky black over-ear headphones with neon-green ring accents.\n\nFive fingers with short blunt claws, capable of playing guitar naturally. GUITAR LOCK: Glossy black Kramer Baretta-style electric guitar: single bridge humbucker, one volume knob, Floyd Rose tremolo, black hardware, maple fretboard with white dot inlays, pointed hooked banana headstock with a silver logo, frayed neon-magenta strap, one small orange sticker on the lower horn.\n\nThe guitar must remain visually identical in every scene. SKATEBOARD LOCK: Dark-purple skateboard deck with black grip tape, magenta lightning-crack graphic on the underside, milky-pink wheels, silver trucks and chipped nose.\n\nThe skateboard must remain visually identical in every scene. GLOBAL VISUAL STYLE: High-quality stylized 3D animation with a hand-painted comic texture and thick inked outlines, gritty urban realism mixed with playful surrealism, cinematic anamorphic lens look with shallow depth of field, volumetric neon haze, subtle film grain and chromatic aberration at the frame edges, saturated magenta, teal and acid-yellow graffiti palette against deep blue-black shadows, wet reflective asphalt, mature punk-rock attitude, not cute, not childish, not soft toy-like, 16:9 widescreen. SHOT VISUAL: The lizard gives his signature crooked grin, showing the chipped upper-left tooth, then raises one hand in a playful rock-and-roll horns gesture. Cut to pure black and display LIZARD ON THE LOOSE in bold distressed white punk-rock lettering with magenta and acid-yellow accents. VIDEO ACTION: The lizard looks directly into the lens and slowly gives his signature crooked grin, showing the chipped upper-left tooth. He raises one hand in a playful rock-and-roll horns gesture. Fade the warm spotlight to black. Reveal the title LIZARD ON THE LOOSE in rough white distressed punk-rock typography with magenta and acid-yellow accents; hold until the music ends. Preserve exact character, guitar, skateboard and environment continuity. Controlled believable movement, no redesign.",
+          "negativePrompt": "Cute cartoon, childish animation, soft toy appearance, realistic live-action human, costume changes, different lizard design, different skin color, missing cheek stripes, missing chipped tooth, missing cap, incorrect guitar, acoustic guitar, different guitar color, extra guitars, incorrect skateboard, extra wheels, malformed skateboard, floating objects, extra fingers, extra arms, deformed hands, broken anatomy, duplicated character, inconsistent face, inconsistent clothing, random accessories, blurry subject, low-resolution textures, flat lighting, oversaturated skin, washed-out colors, generic fantasy environment, cheerful children's movie aesthetic, text artifacts, misspelled title, watermark, logo overlay, subtitles.\n\n---",
+          "referenceIds": [
+            "ref-lizard-character-01",
+            "ref-lizard-character-02"
+          ],
+          "references": [
+            {
+              "id": "ref-lizard-character-01",
+              "name": "Lizard character reference 1",
+              "kind": "character",
+              "filePath": "/uploads/production/b33f0deb-9094-49d3-8b50-3c8f085042d1.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            },
+            {
+              "id": "ref-lizard-character-02",
+              "name": "Lizard character reference 2",
+              "kind": "character",
+              "filePath": "/uploads/production/1db3c715-fb07-401f-b559-c4d08db4f2f8.png",
+              "notes": "Meglévő karakter-referencia; használd a karakter azonosságának megőrzéséhez.",
+              "createdAt": "2026-11-11T02:01:52.656Z"
+            }
+          ],
+          "keyframes": [],
+          "status": "draft",
+          "generatedClips": []
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-11-11T00:00:00.000Z",
+  "updatedAt": "2026-11-16T23:27:05.802Z"
+}
